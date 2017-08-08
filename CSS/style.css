@@ -1,0 +1,576 @@
+
+
+/***********Background-Photo**************/
+
+body {
+  background: url('../images/backgroundphoto.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/***********Main-header**************/
+
+
+
+.main-header {
+  height: 400px;
+  font-family:'Poiret One', cursive;
+  font-weight: 100;
+  text-align: center;
+  font-size: 2em;
+  color: rgb(217,206,178);
+
+}
+
+
+/***********Main-Navigation**************/
+
+
+
+.main-nav{
+text-align: center;
+  line-height: 1.5em;
+}
+
+.main-nav ul{
+padding-left: 0;
+text-align: center;
+
+}
+
+
+.main-nav ul li{
+list-style:none;
+
+}
+
+.main-nav ul li a{
+  display: inline-block;
+  text-decoration: none;
+  width:  100%;
+  padding: 2px;
+
+}
+
+.main-nav ul li a:link{
+color: rgb(213,222,217);
+}
+
+
+.main-nav ul li a:visited{
+color: rgb(217,206,178);
+}
+
+.main-nav ul li a:hover{
+color: rgb(217,206,178);
+  background-color: rgba(217,206,178,.2);
+  border-radius:5%;
+
+}
+
+/***********Main-Profile/Introduction**************/
+
+.profile{
+  text-align: center;
+  line-height: 1.7em;
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+  color: rgb(238,235,222);
+  font-size: 1.3em;
+
+
+}
+
+
+/***********Main Content************/
+
+.card
+{
+
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 1.35em;
+  opacity: .7;
+  font-family: 'Muli', sans-serif;
+  font-weight: 900;
+  line-height: 1.5em;
+
+}
+
+
+
+
+
+
+
+/***********Sub-Headers************/
+
+
+.sub-header{
+   height: 200px;
+  font-family:'Poiret One', cursive;
+  font-weight: 100;
+  text-align:center;
+  padding-top: 1.5em;
+  font-size: 1.5em;
+  color: rgb(217,206,178);
+  background-size:cover;
+
+}
+
+
+
+
+/**************Skills Introduction****************/
+
+
+.skills-intro{
+  text-align: center;
+  line-height: 1.5em;
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+  color: rgb(238,235,222);
+  font-size: 1em;
+  opacity: .86;
+  padding-bottom: 100px;
+}
+
+
+.skills-intro p{
+width: 70%;
+  padding-top: 3em;
+  margin-left: 15%;
+}
+
+.skills-intro p a{
+
+  color: rgb(238,235,222);
+
+}
+
+.skills-intro p a:hover{
+
+  color: rgb(217,206,178);
+}
+
+
+
+
+
+
+
+
+/***********Body Images************/
+
+
+.skills-images
+
+{ max-width: 80%;
+  border: 5px solid rgb(122,106,83);
+  border-radius: 5%;
+  margin: 0 auto 0 auto;
+
+}
+
+.index-images{
+ max-width: 90%;
+  border: 5px solid rgb(122,106,83);
+  border-radius: 2%;
+  margin: 0 auto 0 auto;
+
+}
+
+#profileimage{
+margin-top: 3em;
+max-width: 90%;
+ border: 5px solid rgb(122,106,83);
+ border-radius: 2%;
+
+
+}
+
+
+
+
+/***********Contact************/
+
+
+.contact{
+   height: 10em;
+  font-family:'Poiret One', cursive;
+  font-weight: 100;
+  font-size: 1.5em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin: 7em auto 0;
+  padding: 2em 0 10em;
+  text-align: center;
+  background-color: rgba(238,235,222,.2);
+  color: white
+}
+
+contact p{
+width: 85%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+
+/*****************Footer****************/
+
+
+.footer{
+  background-color: rgba(238,235,222,.2);
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-weight: 100;
+  font-size: 1.75em;
+  width: 100%;
+  margin: 0 auto 0;
+  padding: .4em 0 1em;
+  color: white;
+  height: 50px;
+
+}
+
+p.foot-name{
+float: left;
+}
+
+.footer a.back-to-top{
+text-decoration: none;
+display: inline-block;
+}
+
+.footer-name{
+float: left;
+}
+
+.back-to-top{
+float: right;
+}
+
+.footer p{
+
+/*padding: 0 4px;*/
+font-size: .5em;
+font-weight: 900;
+margin: 24px 1em 0;
+}
+
+
+.footer a:link{
+color: rgb(217,206,178);
+}
+
+
+.footer a:visited{
+color: rgb(213,222,217);
+}
+
+.footer a:hover{
+  color: rgb(153,178,183);
+
+}
+
+.foot-nav{
+display: none;
+}
+
+
+
+
+
+
+/*****************************************Media Queries****************************************/
+
+
+
+
+
+
+/***************************768px Breakpoint*************************/
+
+
+
+
+
+
+@media (min-width: 768px){
+
+/************Header***********************/
+
+.main-header{
+height: 200px;
+}
+
+
+
+
+
+/************Main-Navigation*************/
+
+
+.main-nav li, .main-nav {
+  display: inline-block;
+
+  }
+
+
+.main-nav ul li a{
+padding: 0 .3em;
+}
+
+
+
+
+
+/**************Profile/Intro*************/
+
+.profile{
+height: 200px;
+  margin-top: 75px;
+
+}
+
+.skills-intro{
+height: 400px;
+  margin-top: 75px;
+}
+
+#profileimage{
+width: 35%;
+  float: right;
+  margin-right: 2%;
+  margin-top: 0;
+
+}
+
+
+.profile p{
+
+  margin-left: 1%;
+  padding-top: 1em;
+  width: 60%;
+}
+/****************Body Images**************/
+
+
+
+.index-images{
+ min-width: 100%;
+
+}
+
+
+
+/***************Main Content**************/
+
+
+.card{
+  display:inline-block;
+  width: 37%;
+  vertical-align: top;
+  padding: 5px 40px;
+
+
+}
+
+div.container{
+  text-align: center;
+
+}
+
+
+
+/******************Contact***************/
+
+
+.contact h3{
+font-size: 1.7em;
+}
+
+
+
+.contact p{
+width: 50%;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+
+
+/*****************Footer******************/
+
+
+.footer{
+padding: 1em 0 1.4em;
+}
+
+
+
+.footer a.back-to-top{
+  display: none;
+}
+
+.foot-nav{
+display: inline-block;
+}
+
+p.footer-name{
+  padding-bottom: 24px;
+  font-size: .8em;
+}
+
+.footer p{
+margin-top: 17px;
+}
+
+nav.foot-nav{
+
+float: right;
+}
+
+
+
+nav.foot-nav ul{
+margin-top: 11px;
+}
+
+nav.foot-nav ul li{
+display: inline;
+list-style:none;
+
+}
+
+
+nav.foot-nav ul li a{
+  text-decoration: none;
+  padding: 0 .1em;
+  margin-right: 1em;
+  display: inline-block;
+  font-size: .5em;
+}
+
+
+
+}
+
+
+
+
+
+/*********************************1024px Breakpoint*************************/
+
+
+
+@media (min-width: 1024px){
+
+
+/*******************Main-Header************/
+
+.main-header h2{
+display: inline-block;
+  font-size: 1.1em;
+  float: left;
+  margin: 35px;
+
+}
+
+
+/*******************Main-Navigation************/
+
+nav.main-nav{
+float: right;
+padding-right: .5em;
+}
+
+nav.main-nav ul li a{
+display: inline-block;
+  font-size: .65em;
+}
+
+
+
+/*******************Main Profile/Indtroduction************/
+
+.profile{
+height: 275px;
+ padding-top:0;
+}
+
+.profile p{
+font-size: 1.5em;
+  line-height: 1.5em;
+  padding-top: 0;
+  width: 50%;
+  text-align: left;
+  margin-left: 4em;
+}
+
+
+#profileimage{
+width: 30%;
+  margin-left: 1em;
+}
+
+
+/*******************SKills Profile/Introduction************/
+
+
+.skills-intro{
+  height: 600px;
+
+
+}
+
+
+.skills-intro p{
+ font-size: 1.5em;
+  line-height: 1.5em;
+   width: 70%;
+  margin-left: 15%;
+  padding-top: 0;
+}
+
+
+
+/*******************Main-Content************/
+
+
+
+
+div.container{
+text-align: center;
+}
+
+
+.card{
+
+  vertical-align: top;
+  width: 20%;
+  }
+
+
+/*******************Contact************/
+
+.contact{
+font-size: 1.75em;
+
+}
+
+
+
+
+
+/*******************Footer************/
+
+
+
+}
