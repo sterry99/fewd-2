@@ -17,11 +17,11 @@ body {
 
 .main-header {
   height: 400px;
-  font-family:'Poiret One', cursive;
+  font-family:'Montserrat', sans-serif;
   font-weight: 100;
   text-align: center;
   font-size: 2em;
-  color: rgb(217,206,178);
+  color: rgb(255, 255, 255);
 
 }
 
@@ -56,16 +56,16 @@ list-style:none;
 }
 
 .main-nav ul li a:link{
-color: rgb(213,222,217);
+color: rgb(255, 255, 255);
 }
 
 
 .main-nav ul li a:visited{
-color: rgb(217,206,178);
+color: rgb(255, 255, 255);
 }
 
 .main-nav ul li a:hover{
-color: rgb(217,206,178);
+color: rgb(255,33,33);
   background-color: rgba(217,206,178,.2);
   border-radius:5%;
 
@@ -76,9 +76,9 @@ color: rgb(217,206,178);
 .profile{
   text-align: center;
   line-height: 1.7em;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  color: rgb(238,235,222);
+  color: rgb(255, 255, 255);
   font-size: 1.3em;
 
 
@@ -94,8 +94,7 @@ color: rgb(217,206,178);
   text-align: center;
   color: white;
   font-size: 1.35em;
-  opacity: .7;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Slabo 27px', serif;
   font-weight: 900;
   line-height: 1.5em;
 
@@ -112,7 +111,7 @@ color: rgb(217,206,178);
 
 .sub-header{
    height: 200px;
-  font-family:'Poiret One', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   text-align:center;
   padding-top: 1.5em;
@@ -201,7 +200,7 @@ max-width: 90%;
 
 .contact{
    height: 10em;
-  font-family:'Poiret One', cursive;
+  font-family:'Slabo 27px', serif;
   font-weight: 100;
   font-size: 1.5em;
   border-top: 1px solid black;
@@ -227,7 +226,7 @@ width: 85%;
 .footer{
   background-color: rgba(238,235,222,.2);
   text-align: center;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Slabo 27px', serif;
   font-weight: 100;
   font-size: 1.75em;
   width: 100%;
@@ -265,7 +264,7 @@ margin: 24px 1em 0;
 
 
 .footer a:link{
-color: rgb(217,206,178);
+color: rgb(217,255,255);
 }
 
 
@@ -274,7 +273,7 @@ color: rgb(213,222,217);
 }
 
 .footer a:hover{
-  color: rgb(153,178,183);
+  color: rgb(255,33,33);
 
 }
 
