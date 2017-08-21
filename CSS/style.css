@@ -503,7 +503,9 @@ display: inline-block;
 height: 275px;
  padding-top:0;
 }
-
+.clearfix {
+  overflow: auto;
+}
 .profile p{
 font-size: 1.5em;
   line-height: 1.5em;
